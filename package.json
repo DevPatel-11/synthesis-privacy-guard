@@ -1,0 +1,26 @@
+{
+  "name": "synthesis-privacy-guard",
+  "version": "1.0.0",
+  "description": "Multi-layered privacy agent using ZK proofs, encrypted communication, and privacy pools for SYNTHESIS hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevPatel-11/synthesis-privacy-guard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DevPatel-11/synthesis-privacy-guard/issues"
+  },
+  "homepage": "https://github.com/DevPatel-11/synthesis-privacy-guard#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.1.12"
+  }
+}
