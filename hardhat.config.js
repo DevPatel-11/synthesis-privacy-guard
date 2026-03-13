@@ -1,6 +1,6 @@
-require("@nomicfoundation/hardhat-toolbox");
+import "@nomicfoundation/hardhat-toolbox";
 
-module.exports = {
+export default {
   solidity: "0.8.19",
   networks: {
     hardhat: {
@@ -10,7 +10,7 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
     baseSepolia: {
-      url: `https://sepolia.base.org`,
+      url: "https://sepolia.base.org",
       accounts: process.env.PRIVATE_KEY ? [`0x${process.env.PRIVATE_KEY}`] : []
     }
   }

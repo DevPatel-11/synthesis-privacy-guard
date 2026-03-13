@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/DevPatel-11/synthesis-privacy-guard#readme",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
     "ethers": "^6.16.0",
     "hardhat": "^3.1.12"
   },
